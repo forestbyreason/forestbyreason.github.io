@@ -5,12 +5,13 @@
 html, body {
 	font-family: Inconsolata, Sans-Serif;
     height: 100%;
+    background-color: #023047;
 }
 
 /* HEADINGS */
 
 h1 {
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: 700;
     padding-bottom: 0.5em;
 }
@@ -33,7 +34,7 @@ h3 {
 a {
     text-decoration: none;
     color: inherit;
-    background-image: linear-gradient(#ffb703, #ffb703);
+    background-image: linear-gradient(#FFB703, #FFB703);
     background-origin: 0;
     background-size: 200% 50%;
     background-repeat: repeat-x;
@@ -60,15 +61,18 @@ a {
 */
 
 /* IMAGES */
+/*
 img {
     width: 100%;
 }
+*/
 
 /* HORIZONTAL LINE BREAK */
 
 hr {
     width: 25%;
     margin: 2em auto;
+    border: 1px solid #8ECAE6;
 }
 
 /* IFRAME/EMBEDDED PAGES */
@@ -93,11 +97,16 @@ i a {
 
 /********** HOME PAGE **********/
 
+.white-container {
+    background-color: #FFFFFF;
+    padding: 4em 5em;
+  }
+
 /* HOME PAGE HEADING */
 
 .home {
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
 }
 
@@ -125,8 +134,26 @@ i a {
     padding: 1em 0 1.5em;
 }
 
-/* BACKGROUND COLOR*/
+/* LIST OF GAMES ON HOME PAGE */
 
-.grey-background {
-    background-color: #EBEBEB;
+.game-padding p {
+    padding: 1em 2em 0;
+}
+
+.game-link {
+    font-weight: 900;
+    letter-spacing: .5px;
+    /*font-style: italic;*/
+    text-decoration: none;
+    background-image: none;
+    background-origin: 0;
+    background-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0;
+    transition: color 0.2s linear, letter-spacing 0.2s linear;
+}
+
+.game-link:hover {
+    color: #219EBC;
+    letter-spacing: 1px;
 }
