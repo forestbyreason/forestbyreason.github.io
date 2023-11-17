@@ -8,12 +8,17 @@ html, body {
     background-color: #023047;
 }
 
+.white-container {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 4em 5em;
+}
+
 /* HEADINGS */
 
 h1 {
     font-size: 2em;
     font-weight: 700;
-    padding-bottom: 0.5em;
 }
 
 h2 {
@@ -97,11 +102,6 @@ i a {
 
 /********** HOME PAGE **********/
 
-.white-container {
-    background-color: #FFFFFF;
-    padding: 4em 5em;
-  }
-
 /* HOME PAGE HEADING */
 
 .home {
@@ -125,7 +125,7 @@ i a {
     font-size: 0.8em;
     font-weight: 100;
     text-align: center;
-    padding: 1em 0;
+    padding: 1em 0 0;
 }
 
 /* HOME PAGE SECTION */
@@ -156,4 +156,9 @@ i a {
 .game-link:hover {
     color: #219EBC;
     letter-spacing: 1px;
+}
+
+.game-unlinked {
+    font-weight: 900;
+    letter-spacing: .5px;
 }

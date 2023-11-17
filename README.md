@@ -27,7 +27,7 @@
 
 ### Personal projects
 
-- ***Alchemy Game***: digital prototype, design doc (video demo to come)
+- ***Wild Magic***: digital prototype, design doc (video demo to come)
 - ***Memories of Light***: design doc
 - ***Legends of Runeterra* custom cards**: design journal/card concepts
 
@@ -39,10 +39,10 @@
 ## Experience
 
 - **Playtester**, [IndieCade](https://www.indiecade.com) (2023)
-- **Volunteer**, [IndieCade Night Games](https://www.indiecade.com/festival-2023) (2023)
 - **Secretary**, Game Dev Club (2020)
 
 ## Activities
 
+- [IndieCade Night Games](https://www.indiecade.com/festival-2023) (2023)
 - Draxonic design club (2020)
 - Habitat For Humanity (2020)
